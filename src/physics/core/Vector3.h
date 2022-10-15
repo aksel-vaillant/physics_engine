@@ -11,7 +11,7 @@ public:
 	/******* DEFAULT CONSTUCTOR *******/
 	Vector3() : x(0), y(0), z(0) {}
 	/******* EXPLICIT CONSTUCTOR *******/	
-	Vector3(const real x) : x(x), y(x), z(x) {}
+	Vector3(const real k) : x(k), y(k), z(k) {}
 	Vector3(const real x, const real y, const real z) : x(x), y(y), z(z) {}
 	/******* CLEAR *******/
 	void clear() {

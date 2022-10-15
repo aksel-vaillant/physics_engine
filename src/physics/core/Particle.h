@@ -28,12 +28,8 @@ public:
 	
 	void clearAccumulator();
 
-	bool hasFiniteMass() {
-		if (inverseMass <= 0.0f)
-			return false;
-		else
-			return true;
-	}
+	bool hasFiniteMass();
+
 	/* ---------- Getters & Setters ---------- */
 
 	Vector3 getPosition() { return position; }

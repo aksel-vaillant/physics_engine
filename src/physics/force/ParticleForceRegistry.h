@@ -15,9 +15,24 @@ private:
 	Registry registries;
 
 public:
-	void add(Particle *particle, ParticleForceGenerator *forceGenerator);
-	void remove(Particle *particle, ParticleForceGenerator *forceGenerator);
-	void clear();
+	void add(Particle* particle, ParticleForceGenerator* forceGenerator) {
+		ParticleForceEntry pfe;
+		pfe.particle = particle;
+		pfe.forceGenerator = forceGenerator;
+
+		registries.push_back(pfe);
+	}
+
+	void remove(Particle* particle, ParticleForceGenerator* forceGenerator) {
+		ParticleForceEntry pfe;
+		pfe.particle = particle;
+		pfe.forceGenerator = forceGenerator;
+		registries.erase(std::remove(registries.begin(), registries.end(), pfe), registries.end());
+	}
+	
+	void clear() {
+		registries.clear();
+	}
 
 	void updateForces(real duration) {
 		Registry::iterator it;
