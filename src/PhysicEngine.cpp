@@ -26,20 +26,6 @@ PhysicEngine& PhysicEngine::getInstance() {
 	return instance;
 }
 
-void PhysicEngine::run()
-{
-	initLogger();
-	initGLFW();
-	initOpenGL();
-	initUI();
-
-	spdlog::info("Initialization complete !");
-
-	mainLoop();
-
-	cleanUp();
-}
-
 void PhysicEngine::initLogger() {
 	spdlog::set_level(spdlog::level::debug); // Set global log level to debug
 	spdlog::set_pattern("[%^%l%$] %v");
@@ -83,16 +69,27 @@ void PhysicEngine::initOpenGL()
 	glLoadIdentity();
 }
 
+void PhysicEngine::initPhysicWorld() {
+	
+}
+
 void PhysicEngine::initUI()
 {
 	uiManager = new UIManager();
 	uiManager->init(window);
+
+	//Particle* t = physicWorld->particles[0];
+	//std::cout << "Position test - " << (*t).getPosition() << std::endl;
 }
 
 void PhysicEngine::mainLoop()
 {
-	// Create a cube/particle/cicle
+
+	physicWorld = new PhysicWorld();
+
+	// Adding a particle
 	Particle p(Vector3(1.0f, 100.0f, 1.0f));
+	physicWorld->particles.push_back(&p);
 
 	while (!glfwWindowShouldClose(window))
 	{
@@ -101,17 +98,33 @@ void PhysicEngine::mainLoop()
 		deltaTime = currentFrame - lastFrame;
 		lastFrame = currentFrame;
 
-		p.integrate(deltaTime);
-		cout << "Position - " << p.getPosition() << endl;
+		// Integrating the system with our particle
+		physicWorld->integrate(deltaTime);
+		std::cout << "Position - " << (*physicWorld->particles[0]).getPosition() << std::endl;
 
 		// Render
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-		uiManager->render();
+		uiManager->render(deltaTime);
 
 		// Swap the back buffer with the front buffer
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}
+}
+
+void PhysicEngine::run()
+{
+	initLogger();
+	initGLFW();
+	initOpenGL();
+	initPhysicWorld();
+	initUI();
+
+	spdlog::info("Initialization complete !");
+
+	mainLoop();
+
+	cleanUp();
 }
 
 void PhysicEngine::cleanUp()

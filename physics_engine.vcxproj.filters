@@ -13,48 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\imgui">
-      <UniqueIdentifier>{3b1d0255-8e8b-49f6-9726-59ec7a04adef}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\glad">
-      <UniqueIdentifier>{50a6a572-e89e-40f2-a2b0-5a6fd1ae9c6a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\GLFW">
-      <UniqueIdentifier>{d7af0810-bc81-413a-9596-1f3312f3c762}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\parea">
-      <UniqueIdentifier>{34a434ee-207d-4957-93cd-d53cc32bdad2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers de ressources\shaders">
-      <UniqueIdentifier>{c353d5a9-2b8f-4cc1-a559-7aa2fccabeed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\glm">
-      <UniqueIdentifier>{75e3cbc7-2416-4964-a4eb-fd658d05f33e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\glm\gtc">
-      <UniqueIdentifier>{ffc97e80-e354-4159-8cb3-8720445a8b64}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\parea\resources">
-      <UniqueIdentifier>{71de7171-eb9f-4d51-ab02-4624d6ffa641}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\ui\UIManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="lib\glad\includes\glad\glad.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="lib\glad\includes\KHR\khrplatform.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="src\physics\parea\core\Particle.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="src\physics\parea\core\Precision.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="src\ui\IconsFontAwesome.h">
+    <ClInclude Include="lib\imgui\backends\imgui_impl_glfw.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="lib\imgui\backends\imgui_impl_opengl3.h">
@@ -63,7 +24,886 @@
     <ClInclude Include="lib\imgui\backends\imgui_impl_opengl3_loader.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="lib\imgui\backends\imgui_impl_glfw.h">
+    <ClInclude Include="lib\glad\include\glad\glad.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glad\include\KHR\khrplatform.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glew\include\GL\eglew.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glew\include\GL\glew.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glew\include\GL\glxew.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glew\include\GL\wglew.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glfw\include\GLFW\glfw3.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glfw\include\GLFW\glfw3native.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\common.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\compute_common.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\compute_vector_relational.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\qualifier.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\setup.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_float.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_half.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_mat2x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_mat2x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_mat2x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_mat3x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_mat3x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_mat3x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_mat4x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_mat4x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_mat4x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_quat.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_vec1.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_vec2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_vec3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\type_vec4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\_features.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\_fixes.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\_noise.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\_swizzle.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\_swizzle_func.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\detail\_vectorize.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\exponential.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_clip_space.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_common.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double2x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double2x2_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double2x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double2x3_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double2x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double2x4_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double3x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double3x2_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double3x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double3x3_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double3x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double3x4_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double4x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double4x2_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double4x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double4x3_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double4x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_double4x4_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float2x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float2x2_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float2x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float2x3_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float2x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float2x4_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float3x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float3x2_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float3x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float3x3_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float3x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float3x4_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float4x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float4x2_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float4x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float4x3_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float4x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_float4x4_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int2x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int2x2_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int2x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int2x3_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int2x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int2x4_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int3x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int3x2_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int3x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int3x3_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int3x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int3x4_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int4x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int4x2_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int4x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int4x3_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int4x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_int4x4_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_integer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_projection.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_relational.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_transform.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint2x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint2x2_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint2x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint2x3_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint2x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint2x4_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint3x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint3x2_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint3x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint3x3_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint3x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint3x4_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint4x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint4x2_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint4x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint4x3_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint4x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\matrix_uint4x4_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_common.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_double.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_double_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_exponential.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_float.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_float_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_geometric.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_relational.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_transform.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\quaternion_trigonometric.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\scalar_common.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\scalar_constants.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\scalar_integer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\scalar_int_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\scalar_packing.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\scalar_reciprocal.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\scalar_relational.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\scalar_uint_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\scalar_ulp.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_bool1.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_bool1_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_bool2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_bool2_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_bool3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_bool3_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_bool4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_bool4_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_common.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_double1.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_double1_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_double2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_double2_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_double3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_double3_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_double4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_double4_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_float1.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_float1_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_float2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_float2_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_float3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_float3_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_float4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_float4_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_int1.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_int1_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_int2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_int2_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_int3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_int3_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_int4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_int4_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_integer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_packing.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_reciprocal.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_relational.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_uint1.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_uint1_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_uint2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_uint2_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_uint3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_uint3_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_uint4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_uint4_sized.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext\vector_ulp.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\ext.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\fwd.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\geometric.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\glm.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\bitfield.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\color_space.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\constants.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\epsilon.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\integer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\matrix_access.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\matrix_integer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\matrix_inverse.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\matrix_transform.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\noise.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\packing.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\quaternion.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\random.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\reciprocal.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\round.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\type_aligned.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\type_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\type_ptr.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\ulp.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtc\vec1.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\associated_min_max.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\bit.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\closest_point.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\color_encoding.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\color_space.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\common.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\compatibility.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\component_wise.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\dual_quaternion.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\easing.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\euler_angles.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\extend.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\extended_min_max.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\exterior_product.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\fast_exponential.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\fast_square_root.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\fast_trigonometry.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\functions.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\gradient_paint.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\hash.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\integer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\intersect.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\io.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\log_base.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\matrix_cross_product.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\matrix_decompose.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\matrix_factorisation.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\matrix_interpolation.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\matrix_major_storage.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\matrix_operation.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\matrix_query.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\matrix_transform_2d.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\mixed_product.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\norm.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\normal.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\normalize_dot.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\number_precision.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\optimum_pow.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\orthonormalize.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\pca.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\perpendicular.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\polar_coordinates.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\projection.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\quaternion.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\range.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\raw_data.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\rotate_vector.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\scalar_multiplication.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\scalar_relational.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\spline.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\std_based_type.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\string_cast.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\texture.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\transform.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\transform2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\type_aligned.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\type_trait.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\vector_angle.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\vector_query.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\vec_swizzle.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\gtx\wrap.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\integer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\mat2x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\mat2x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\mat2x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\mat3x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\mat3x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\mat3x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\mat4x2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\mat4x3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\mat4x4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\matrix.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\packing.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\common.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\exponential.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\geometric.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\integer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\matrix.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\neon.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\packing.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\platform.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\trigonometric.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\simd\vector_relational.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\trigonometric.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\vec2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\vec3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\vec4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glm\include\glm\vector_relational.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="lib\imgui\backends\imgui_impl_glfw.h">
@@ -78,6 +918,9 @@
     <ClInclude Include="lib\imgui\imconfig.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="lib\imgui\imgui.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
     <ClInclude Include="lib\imgui\imgui_internal.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
@@ -90,80 +933,375 @@
     <ClInclude Include="lib\imgui\imstb_truetype.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="lib\imgui\imgui.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\async.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\header.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\async_logger-inl.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\force\ParticleForceGenerator.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\async_logger.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\force\ParticleForceRegistry.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\cfg\argv.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\force\ParticleGravity.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\cfg\env.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\force\ParticleDrag.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\cfg\helpers-inl.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\force\ParticleSpring.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\cfg\helpers.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\force\ParticleAnchoredSpring.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\common-inl.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\force\ParticleBuoyancy.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\common.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\PhysicWorld.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\details\backtracer-inl.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\contact\ParticleContactGenerator.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\details\backtracer.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\contact\ParticleContactResolver.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\details\circular_q.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\contact\ParticleContact.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\details\console_globals.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\contact\ParticleLink.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\details\file_helper-inl.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\contact\ParticleCable.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\details\file_helper.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\physics\parea\contact\ParticleRod.h">
+    <ClInclude Include="lib\spdlog\include\spdlog\details\fmt_helper.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\log_msg-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\log_msg.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\log_msg_buffer-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\log_msg_buffer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\mpmc_blocking_q.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\null_mutex.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\os-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\os.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\periodic_worker-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\periodic_worker.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\registry-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\registry.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\synchronous_factory.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\tcp_client-windows.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\tcp_client.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\thread_pool-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\thread_pool.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\udp_client-windows.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\udp_client.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\details\windows_include.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bin_to_hex.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\args.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\chrono.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\color.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\compile.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\core.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\format-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\format.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\locale.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\os.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\ostream.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\printf.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\ranges.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\bundled\xchar.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\chrono.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\compile.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\fmt.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\ostr.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\ranges.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fmt\xchar.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\formatter.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\fwd.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\logger-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\logger.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\pattern_formatter-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\pattern_formatter.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\android_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\ansicolor_sink-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\ansicolor_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\base_sink-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\base_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\basic_file_sink-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\basic_file_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\daily_file_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\dist_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\dup_filter_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\hourly_file_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\mongo_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\msvc_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\null_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\ostream_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\qt_sinks.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\ringbuffer_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\rotating_file_sink-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\rotating_file_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\sink-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\stdout_color_sinks-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\stdout_color_sinks.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\stdout_sinks-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\stdout_sinks.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\syslog_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\systemd_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\tcp_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\udp_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\wincolor_sink-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\wincolor_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\sinks\win_eventlog_sink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\spdlog-inl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\spdlog.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\stopwatch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\tweakme.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\spdlog\include\spdlog\version.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PhysicEngine.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\contact\ParticleCable.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\contact\ParticleContact.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\contact\ParticleContactGenerator.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\contact\ParticleContactResolver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\contact\ParticleLink.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\contact\ParticleRod.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\core\Particle.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\core\Precision.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\core\Vector3.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\force\ParticleAnchoredSpring.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\force\ParticleBuoyancy.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\force\ParticleDrag.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\force\ParticleForceGenerator.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\force\ParticleForceRegistry.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\force\ParticleGravity.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\force\ParticleSpring.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\PhysicWorld.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\IconsFontAwesome.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\UIManager.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Librairies\resources\shaders\default.frag">
-      <Filter>Fichiers de ressources\shaders</Filter>
-    </None>
-    <None Include="Librairies\resources\shaders\default.vert">
-      <Filter>Fichiers de ressources\shaders</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\physics\parea\core\Particle.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="lib\glad\src\glad.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\main.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ui\UIManager.cpp">
+    <ClCompile Include="lib\imgui\backends\imgui_impl_glfw.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="lib\imgui\backends\imgui_impl_opengl3.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="lib\imgui\backends\imgui_impl_glfw.cpp">
+    <ClCompile Include="lib\glad\src\glad.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\glm\include\glm\detail\glm.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="lib\imgui\backends\imgui_impl_glfw.cpp">
@@ -187,19 +1325,464 @@
     <ClCompile Include="lib\imgui\imgui_widgets.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\physics\parea\core\Vector3.h">
+    <ClCompile Include="src\main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\physics\parea\PhysicWorld.cpp">
+    <ClCompile Include="src\PhysicEngine.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="src\physics\core\Particle.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\PhysicWorld.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\glm\include\glm\detail\func_common.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_common_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_exponential.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_exponential_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_geometric.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_geometric_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_integer.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_integer_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_matrix.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_matrix_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_packing.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_packing_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_trigonometric.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_trigonometric_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_vector_relational.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\func_vector_relational_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_half.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat2x2.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat2x3.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat2x4.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat3x2.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat3x3.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat3x4.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat4x2.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat4x3.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat4x4.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_mat4x4_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_quat.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_quat_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_vec1.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_vec2.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_vec3.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_vec4.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\detail\type_vec4_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\matrix_clip_space.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\matrix_common.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\matrix_integer.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\matrix_projection.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\matrix_relational.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\matrix_transform.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\quaternion_common.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\quaternion_common_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\quaternion_exponential.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\quaternion_geometric.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\quaternion_relational.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\quaternion_transform.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\quaternion_trigonometric.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\scalar_common.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\scalar_constants.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\scalar_integer.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\scalar_packing.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\scalar_reciprocal.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\scalar_relational.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\scalar_ulp.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\vector_common.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\vector_integer.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\vector_packing.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\vector_reciprocal.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\vector_relational.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\ext\vector_ulp.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\bitfield.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\color_space.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\constants.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\epsilon.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\integer.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\matrix_access.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\matrix_inverse.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\matrix_transform.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\noise.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\packing.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\quaternion.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\quaternion_simd.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\random.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\round.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\type_precision.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\type_ptr.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtc\ulp.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\associated_min_max.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\bit.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\closest_point.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\color_encoding.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\color_space.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\color_space_YCoCg.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\common.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\compatibility.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\component_wise.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\dual_quaternion.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\easing.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\euler_angles.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\extend.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\extended_min_max.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\exterior_product.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\fast_exponential.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\fast_square_root.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\fast_trigonometry.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\float_notmalize.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\functions.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\gradient_paint.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\handed_coordinate_space.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\hash.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\integer.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\intersect.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\io.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\log_base.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\matrix_cross_product.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\matrix_decompose.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\matrix_factorisation.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\matrix_interpolation.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\matrix_major_storage.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\matrix_operation.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\matrix_query.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\matrix_transform_2d.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\mixed_product.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\norm.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\normal.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\normalize_dot.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\number_precision.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\optimum_pow.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\orthonormalize.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\pca.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\perpendicular.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\polar_coordinates.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\projection.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\quaternion.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\raw_data.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\rotate_normalized_axis.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\rotate_vector.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\scalar_relational.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\spline.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\std_based_type.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\string_cast.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\texture.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\transform.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\transform2.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\type_aligned.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\type_trait.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\vector_angle.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\vector_query.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="lib\glm\include\glm\gtx\wrap.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="res\shaders\default.frag" />
+    <None Include="res\shaders\default.vert" />
+    <None Include="res\shaders\lightShader.frag" />
+    <None Include="res\shaders\lightShader.vert" />
+    <None Include="README.md" />
+    <None Include=".gitignore" />
+    <None Include="imgui.ini" />
+    <None Include="LICENSE" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="res\fonts\fa-solid-900.ttf" />
     <Font Include="res\fonts\fa-solid-900-free.ttf" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\images\awesomeface.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\images\container.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
     <Image Include="res\images\container2.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\images\container2_specular.png">
       <Filter>Fichiers de ressources</Filter>
     </Image>
   </ItemGroup>

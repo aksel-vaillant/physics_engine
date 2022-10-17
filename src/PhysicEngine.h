@@ -18,17 +18,19 @@ using namespace std;
 
 // Logging
 #include "spdlog/spdlog.h"
+#include "physics/PhysicWorld.h"
 
 class PhysicEngine
 {
 	public:		
 		const int GL_VERSION_MAJOR = 3, GL_VERSION_MINOR = 3;
 
-		GLFWwindow* window;
-		UIManager* uiManager;
+		GLFWwindow* window = nullptr;
+		UIManager* uiManager = nullptr;
+		PhysicWorld* physicWorld = nullptr;
 
-		uint32_t WINDOW_WIDTH = 1080;
-		uint32_t WINDOW_HEIGHT = 920;
+		uint32_t WINDOW_WIDTH = 800;
+		uint32_t WINDOW_HEIGHT = 600;
 
 		float deltaTime = 0.0f;					// Time between current frame and last frame
 		float lastFrame = 0.0f;					// Time of last frame
@@ -46,7 +48,8 @@ class PhysicEngine
 		/* ---------- Methods ---------- */
 		void initLogger();
 		void initGLFW();
-		void initOpenGL();
+		void initOpenGL();		
+		void initPhysicWorld();
 		void initUI();
 
 		void mainLoop();
