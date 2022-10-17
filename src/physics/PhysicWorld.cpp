@@ -1,7 +1,7 @@
 #include "PhysicWorld.h"
 
 
-unsigned PhysicWorld::generateContacts()
+/*unsigned PhysicWorld::generateContacts()
 {
 	unsigned limit = maxContacts;
 	ParticleContact* nextContact = contacts;
@@ -18,6 +18,10 @@ unsigned PhysicWorld::generateContacts()
 
 	// Return the number of contacts used
 	return maxContacts - limit;
+}*/
+
+PhysicWorld::PhysicWorld()
+{
 }
 
 void PhysicWorld::integrate(real duration)
@@ -28,6 +32,7 @@ void PhysicWorld::integrate(real duration)
 	}
 }
 
+/*
 void PhysicWorld::runPhysics(real duration)
 {
 	registry.updateForces(duration);
@@ -41,4 +46,4 @@ void PhysicWorld::runPhysics(real duration)
 		
 		resolver.resolveContacts(contacts, usedContacts, duration);
 	}
-}
+}*/

@@ -4,6 +4,11 @@
 
 // Icons from FontAwesome
 #include "IconsFontAwesome.h"	// From... https://github.com/juliettef/IconFontCppHeaders/
+#include <iostream>
+
+UIManager::UIManager()
+{
+}
 
 void UIManager::init(GLFWwindow* window) {
 	// ImGUI Initialization
@@ -22,11 +27,13 @@ void UIManager::init(GLFWwindow* window) {
 	ImGui_ImplOpenGL3_Init("#version 330");
 }
 
-void UIManager::render() {
+void UIManager::render(float dt) {
 	// Start the Dear ImGui frame
 	ImGui_ImplOpenGL3_NewFrame();
 	ImGui_ImplGlfw_NewFrame();
 	ImGui::NewFrame();
+
+	static bool hasBeenPressed = false;
 
 	// UI INTERFACE
 	if (showWindow) {
@@ -35,28 +42,28 @@ void UIManager::render() {
 		// ImGUI window creation
 		ImGui::Begin("Toolbox");
 
-		ImGui::Text("\nPlay with gravity!");
-		/*static float sliderGravity = physicsManager->getGravityConstant();
-		ImGui::SliderFloat("###sliderGravity", &sliderGravity, 0.0f, 50.0f);
+		// ImGui::SliderFloat("X", &x, 1.f, 100.f);
+		// ImGui::SliderFloat("Y", &y, 1.f, 100.f);
+		// ImGui::SliderFloat("Z", &z, 1.f, 100.f);
 
-		if (sliderGravity != newGravity) {
-			newGravity = sliderGravity;
-			if (toggleDebug)
-				spdlog::debug("[TOGGLE][DEBUG] Changed gravity to {}", newGravity);
-		}*/
+		//(*physicWorld->particles[0]).setPosition(Vector3(x));
 
-		if (ImGui::Button("Start###buttonStart", ImVec2(100, 25))) {
-			// When I press the button start
+		if (ImGui::Button("Start")) {
+			hasBeenPressed = !hasBeenPressed;
 		}
-
-		if (ImGui::Button("Reset###buttonRestart", ImVec2(100, 25))) {
-			// When I press the button restart
+	
+		if (hasBeenPressed) {
+			//physicWorld->integrate(dt);
 		}
-		
-		if (ImGui::Button("Reset & Start", ImVec2(100, 25))) {
+		if (ImGui::Button("Restart")) {
+			// Vector3 initPos = Vector3(1.f, 100.f, 1.f);
+			// (*physicWorld->particles[0]).setPosition(initPos);
 		}
 
 		ImGui::Checkbox("Debug", &toggleDebug);
+		if (toggleDebug) {
+			// std::cout << "Position - " << (*physicWorld->particles[0]).getPosition().y << std::endl;
+		}
 		
 		// Ends the window
 		ImGui::End();

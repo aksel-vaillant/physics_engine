@@ -8,18 +8,29 @@
 
 class UIManager {
 public:
-	UIManager() {};
+	UIManager();
 
-	void init(GLFWwindow* window);
-	void render();
+	void init(GLFWwindow* window);//, PhysicWorld* physicWorld);
+	void render(float dt);
 	void cleanUp();	
 	
 	/* ---------- Variables ---------- */
 
 	bool showWindow = true;
 
-private:
+	/* ---------- Getters & Setters ---------- */	
+	
+	// void setPhysicWorld(PhysicWorld* pWorld) { physicWorld = pWorld; }
+	// PhysicWorld* getPhysicWorld() const { return physicWorld; }
 
+
+private:
+	/* ---------- Components ---------- */
+
+	// PhysicWorld* physicWorld = nullptr;
+
+	/* ---------- Variables for UI Components ---------- */
+	// real x = 1.f;  real y = 1.f; real z = 1.f;
 	float newGravity = 10.0f;
 	bool toggleDebug = false;
 };

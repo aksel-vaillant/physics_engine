@@ -24,10 +24,10 @@ public:
 	}
 
 	void remove(Particle* particle, ParticleForceGenerator* forceGenerator) {
-		ParticleForceEntry pfe;
+		/*ParticleForceEntry pfe;
 		pfe.particle = particle;
 		pfe.forceGenerator = forceGenerator;
-		registries.erase(std::remove(registries.begin(), registries.end(), pfe), registries.end());
+		registries.erase(std::remove(registries.begin(), registries.end(), pfe), registries.end());*/
 	}
 	
 	void clear() {
